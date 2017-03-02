@@ -10,10 +10,10 @@ public class Player implements Serializable {
     private String note;
 
 
-    public Player (String name, int playerNumber, String note) {
-        this.name=name;
-        this.playerNumber=playerNumber;
-        this.note=note;
+    public Player(String name, int playerNumber, String note) {
+        this.name = name;
+        this.playerNumber = playerNumber;
+        this.note = note;
     }
 
     @Override

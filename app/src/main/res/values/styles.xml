@@ -7,7 +7,7 @@
         <item name="colorPrimaryDark">#0097A7</item>
         <item name="colorAccent">#607D8B</item>
     </style>
-    
+
     <style name="Buttons">
         <item name="android:background">#00BCD4</item>
         <item name="android:layout_width">match_parent</item>

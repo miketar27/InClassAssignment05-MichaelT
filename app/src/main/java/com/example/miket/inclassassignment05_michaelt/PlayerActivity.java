@@ -20,12 +20,12 @@ public class PlayerActivity extends AppCompatActivity {
         Intent intent = getIntent();
         ArrayList<Player> players = (ArrayList<Player>) intent.getSerializableExtra("Player List");
 
-        for (int i = 0; players.size()> i; i++) {
-            String s= players.get(i).toString();
-            displayMessage= displayMessage + s + "\n\n";
+        for (int i = 0; players.size() > i; i++) {
+            String s = players.get(i).toString();
+            displayMessage = displayMessage + s + "\n\n";
         }
 
-        TextView rosterView= (TextView) findViewById(R.id.roster_textbox);
+        TextView rosterView = (TextView) findViewById(R.id.roster_textbox);
         rosterView.setText("Roster Information:" + "\n\n" + displayMessage);
     }
 }

@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         t.show();
     }
 
-
     public void savePlayerInfo(View view) {
         EditText playerInputName = (EditText) findViewById(R.id.player_name_edittext);
         String nameInput = playerInputName.getText().toString();
