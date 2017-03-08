@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Coaching App</string>
+    <string name="saved_username" >Mike</string>
+    <string name="saved_username_default" >User!</string>
 </resources>
